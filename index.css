@@ -1,0 +1,47 @@
+html, body  {
+    text-align: center;
+    margin: 0 auto;
+    background: linear-gradient(rgba(164,165,165), rgba(0,0,25,0));
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 4em;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Nabla', cursive;
+}
+
+h4{
+    color: #2F2F2F;
+}
+
+button {
+    margin: 1em 0;
+    height: 50px;
+    width: 100px;
+    border: 1px solid #F1870E;
+    border-radius: 10%;
+    color: #fff;
+    background: orange;
+    padding: 1em;
+    text-transform: uppercase;
+    animation: 3s linear 1s infinite alternate slidein;
+    transition: all .2s ease-in-out;
+}
+
+button:hover {
+    background-color: #F1870E;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.fun {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
